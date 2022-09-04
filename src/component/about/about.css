@@ -1,0 +1,22 @@
+.about{
+ /*  background-image: url(../../asset/images7.jpg); */
+   background-image: url('../../asset/aboutImg.jpg'); 
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-size: cover;
+}
+
+.pare{
+    color: white;
+    font-size: 90px;
+    padding-left: 20px;
+     
+}
+
+.about-title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 30px;
+}

@@ -1,0 +1,199 @@
+.menu{
+    background-color: dimgray;
+    height: 100%;
+    border: 1px solid dimgray;
+}
+
+.menu-juice-list::-webkit-scrollbar{
+    width: 1rem;
+}
+
+.menu-juice-list::-webkit-scrollbar-track{
+    background: rhl(120 75% 50% / 1);
+    background-color: rgb(67, 64, 64);
+    border-radius: 100vw;
+    margin-block: .5em
+}
+
+.menu-juice-list::-webkit-scrollbar-thumb{
+    background: htl(120 100% 20% / 1);
+    background-color: yellow;
+    border-radius: 100vw;
+   
+}
+
+.menu-food-list::-webkit-scrollbar{
+    width: 1rem;
+}
+
+.menu-food-list::-webkit-scrollbar-track{
+    background: rhl(120 75% 50% / 1);
+    background-color: rgb(67, 64, 64);
+    border-radius: 100vw;
+    margin-block: .5em
+}
+
+.menu-food-list::-webkit-scrollbar-thumb{
+    background: htl(120 100% 20% / 1);
+    background-color: yellow;
+    border-radius: 100vw;
+   
+}
+
+.menu-food-list::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(127, 127, 24);
+}
+
+
+.menu-ul-parent{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu-title{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.menu-food-list{
+    border: 1px solid yellow; 
+    border-radius: 5px;
+    height: 400px;
+    overflow-y: scroll;
+   width: 100%;
+  
+   
+}
+
+.menu-juice-list{
+    border: 1px solid yellow; 
+    border-radius: 5px;
+    height: 400px;
+    overflow-y: scroll;
+    width: 100%;
+   
+    
+}
+
+.menu-juice-list li:hover{
+    background-color: rgba(134, 130, 130);
+}
+
+.menu-food-list li:hover{
+    background-color: rgba(134, 130, 130);
+}
+
+.menu-food-list li{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.menu-juice-list li{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.menu-bascket{
+    margin: auto 45%;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: yellow;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.menu-bascket:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.li-item{
+    width: 100%;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.li-item span{
+    font-size: 30px;
+}
+
+.menu-btn{
+    width: 170px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.menu-btn:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+.food-title{
+    color: white;
+    font-size: 30px;
+    margin-left: 40%;
+    
+    
+}
+
+.juice-title{
+    color: white;
+    font-size: 30px;
+    margin-left: 40%;
+}
+
+
+.ul-food{
+    width: 45%;
+}
+
+.ul-juice{
+    width: 45%;
+}
+
+li{
+    transition: all 400ms ease;
+}
+ 
+li div:first-child{
+    width: 70px;
+    height: 50px;
+    border: 2px solid yellow;
+    border: 2px solid gold
+}
+
+.last-menu{
+    width: 100px;
+    height: 100px;
+}
+
+.li1,.li2{
+    position:absolute;
+}

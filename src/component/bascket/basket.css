@@ -1,0 +1,177 @@
+
+*{
+    margin: 0;
+}
+.nn{
+    background-color: aqua;
+    color: red;
+}
+
+.basket{
+   height: 100vh;
+   width: 100%;
+   background-color: rgba(134, 130, 130);
+}
+
+.basket-title{
+    font-size: 60px;
+    margin-left: 40%;
+    color: white;
+}
+.basket-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.basket-ul li{
+    color: white;
+    font-size: xx-large;
+}
+
+.basket-li-img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+ /*   margin-left: -57px;*/
+}
+
+.basket-span-name,.basket-span-oldp,.basket-span-newp{
+    color: white;
+    font-size: xx-large;
+}
+
+/*.basket-span-oldp{
+    text-decoration-line: line-through;
+}*/
+
+.basket-span2-oldp{
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+    font-size: xx-large;
+}
+
+
+.basket-btn-li-parent{
+    
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.basket-li-btn{
+    width: 20px;
+    border: 2px solid black;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: dimgray;
+    
+}
+
+.basket-remove-btn{
+    width: 20px;
+    border: 2px solid black;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: red;
+   
+}
+
+.basket-li-btn:hover{
+    background-color: rgba(134, 130, 130);
+    cursor: pointer;
+}
+
+.basket-btn-parent{
+    margin-top: 20px;
+    
+}
+
+.basket-home-btn{
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: xx-large; 
+    border: 2px solid black;
+    background-color: dimgray;  
+    margin-top: 50px; 
+    margin-left: 50%;
+}
+
+.basket-home-btn:hover{
+   background-color: rgba(134, 130, 130);
+   cursor: pointer;
+}
+
+.addMinus-li-btn{
+    height: 40px;
+    width: 90px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.li-add-btn{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    width: 20px;
+    height: 30px;
+    margin-left: 30px;
+    
+   
+    
+}
+
+.li-minus-btn{
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    width: 20px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.basket-li-amount{
+    
+    color: white; 
+   
+    width: 15px;
+}
+
+/* tr */
+.pp{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+}
+.cart_img{
+    border: 1px solid red;
+}
+
+.basket-totalPrice{
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: end;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.basket-noProduct{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 30px;
+}

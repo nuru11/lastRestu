@@ -1,0 +1,20 @@
+.body-parent{
+    height: 600px;
+  /* background-image: url("../../asset/eid-dishes.webp"); */
+   background-image: url("../../asset/bodyImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: 100vh;
+  /*  border: 1px solid black;*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taste{
+   
+    color: white;
+    font-size: 100px;
+   
+}

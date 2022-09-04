@@ -1,0 +1,132 @@
+header{
+    background-color: dimgray !important;
+    height: 80px;
+    border: 2px solid dimgray !important;
+    position: fixed;
+    width: 100%;
+
+}
+
+.item-parent{
+   
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+   
+}
+
+
+.welcome{
+   position: relative;
+    margin-left: 50px;
+    margin-top: -26px;
+    font-weight: 900;
+    font-size: 90px;
+   
+    
+}
+
+.call-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    font-size: xx-large;
+    transition: all 400ms ease;
+    border: 1px solid transparent;
+    width: 240px;
+    height: 50px;
+    margin-top: -5px;
+    color: yellow;
+
+}
+
+.call-us:hover{
+    background-color: rgb(134, 130, 130);
+    border-radius: 5px;
+}
+
+.header-about,.header-menu,.header-contact,.header-basket{
+    font-size: xx-large;
+    cursor: pointer;
+    transition: all 400ms ease;
+    border: 1px solid transparent;
+    color:yellow;
+
+
+}
+
+.header-basket{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 40px;
+    margin-right: 9px;
+    background-color: dimgray;
+    width: 230px
+}
+
+.header-basket:hover{
+    background-color: red;
+}
+
+.header-about{
+    width: 120px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-menu{
+    width: 120px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-contact{
+    width: 130px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-number{
+    font-size:x-large;
+}
+
+.header-about:hover{
+   background-color: rgb(134, 130, 130);
+   border: 1px solid transparent;
+   border-radius: 5px;
+}
+
+.header-contact:hover{
+    background-color: rgb(134, 130, 130);
+    border: 1px solid transparent;
+    border-radius: 5px;
+ }
+ 
+
+ .header-menu:hover{
+    background-color: rgb(134, 130, 130);
+    border: 1px solid transparent;
+    border-radius: 5px;
+ }
+ 
+ .a-header-contact{
+    color: black;
+ }
+
+ .a-header-about{
+    color: black;
+ }
+
+ .basket-footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+ }
