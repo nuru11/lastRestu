@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/lastRestu/static/css/main.e7c317e7.css",
+    "main.js": "/lastRestu/static/js/main.b5cb5dce.js",
+    "static/media/aboutImg.jpg": "/lastRestu/static/media/aboutImg.5116fc5aa900c5375553.jpg",
+    "static/media/bodyImg.jpg": "/lastRestu/static/media/bodyImg.9094eacd6c587a8f0fce.jpg",
+    "static/media/img-8.jpg": "/lastRestu/static/media/img-8.322eb60db1754da9cf07.jpg",
+    "static/media/img-10.jpg": "/lastRestu/static/media/img-10.345cbd26a3f2ee3cecbe.jpg",
+    "static/media/images6.jpg": "/lastRestu/static/media/images6.4a7a1b3de4b399a7c7d9.jpg",
+    "static/media/juice-5.jpg": "/lastRestu/static/media/juice-5.1f5f18aca367f6b66cbc.jpg",
+    "static/media/img-9.webp": "/lastRestu/static/media/img-9.e420bd22d268258d1f3b.webp",
+    "static/media/img-4.jpg": "/lastRestu/static/media/img-4.27fc3aacf588116dc138.jpg",
+    "static/media/img-6.jpg": "/lastRestu/static/media/img-6.b613e29c71c8d302b8ad.jpg",
+    "static/media/img-3.jpg": "/lastRestu/static/media/img-3.c128900b3fbbc0a8549f.jpg",
+    "static/media/img-7.jpg": "/lastRestu/static/media/img-7.ad85cfd4db6197a4fd3c.jpg",
+    "static/media/img-1.jpg": "/lastRestu/static/media/img-1.4ed4f3b51ea3a4721848.jpg",
+    "static/media/images5.jpg": "/lastRestu/static/media/images5.4450898ab13bd7eeb9c6.jpg",
+    "static/media/images1.jpg": "/lastRestu/static/media/images1.2497f9551db5c679db14.jpg",
+    "static/media/images2.jpg": "/lastRestu/static/media/images2.282d4f71ce985cd70a46.jpg",
+    "static/media/img-2.jpg": "/lastRestu/static/media/img-2.55e92052e3954227b3f4.jpg",
+    "static/media/img-5.jpg": "/lastRestu/static/media/img-5.9e8952e8cb30f31f51b1.jpg",
+    "static/media/juice-6.jpg": "/lastRestu/static/media/juice-6.582acef493787132b900.jpg",
+    "index.html": "/lastRestu/index.html",
+    "main.e7c317e7.css.map": "/lastRestu/static/css/main.e7c317e7.css.map",
+    "main.b5cb5dce.js.map": "/lastRestu/static/js/main.b5cb5dce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7c317e7.css",
+    "static/js/main.b5cb5dce.js"
+  ]
+}
