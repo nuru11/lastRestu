@@ -17,7 +17,7 @@ export default [
       discont: "10$ off",
       oldP: 100,
       newP: 85,
-      price: 10,
+      price: 85,
       amount: 1,
     },
     {
@@ -27,7 +27,7 @@ export default [
       discont: "10$ off",
       oldP: 100,
       newP: 85,
-      price: 10,
+      price: 85,
       amount: 1,
 
     },
@@ -38,7 +38,7 @@ export default [
       discont: "10$ off",
       oldP: 100,
       newP: 85,
-      price: 10,
+      price: 85,
       amount: 1,
     },
     {
@@ -48,7 +48,7 @@ export default [
       discont: "10$ off",
       oldP: 100,
       newP: 85,
-      price: 10,
+      price: 85,
       amount: 1,
     },
     {
@@ -58,7 +58,7 @@ export default [
       discont: "10$ off",
       oldP: 100,
       newP: 85,
-      price: 10,
+      price: 85,
       amount: 1,
     },
     {
@@ -68,7 +68,7 @@ export default [
       discont: "10$ off",
       oldP: 100,
       newP: 85,
-      price: 10,
+      price: 85,
       amount: 1,
     }
     

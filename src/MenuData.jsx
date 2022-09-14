@@ -17,7 +17,7 @@ export default [
         img: IMG1,
         oldP: 100,
         newP: 89,
-        price: 10,
+        price: 89,
         amount: 1,
     },
     {
@@ -25,8 +25,8 @@ export default [
         name: "burder",
         img: IMG2,
         oldP: 100,
-        newP: 89,
-        price: 10,
+        newP: 80,
+        price: 80,
         amount: 1,
     },
     {
@@ -34,8 +34,8 @@ export default [
         name: "burder",
         img: IMG3,
         oldP: 100,
-        newP: 89,
-        price: 10,
+        newP: 90,
+        price: 90,
         amount: 1,
     },
     {
@@ -44,7 +44,7 @@ export default [
         img: IMG4,
         oldP: 100,
         newP: 89,
-        price: 10,
+        price: 89,
         amount: 1,
     },
     {
@@ -52,8 +52,8 @@ export default [
         name: "burder",
         img: IMG5,
         oldP: 100,
-        newP: 89,
-        price: 10,
+        newP: 55,
+        price: 55,
         amount: 1,
     },
     {
@@ -61,8 +61,8 @@ export default [
         name: "burder",
         img: IMG6,
         oldP: 100,
-        newP: 89,
-        price: 10,
+        newP: 60,
+        price: 60,
         amount: 1,
     },
     {
@@ -70,8 +70,8 @@ export default [
         name: "burder",
         img: IMG7,
         oldP: 100,
-        newP: 89,
-        price: 10,
+        newP: 75,
+        price: 75,
         amount: 1,
     },
     {
@@ -79,8 +79,8 @@ export default [
         name: "burder",
         img: IMG8,
         oldP: 100,
-        newP: 89,
-        price: 10,
+        newP: 85,
+        price: 85,
         amount: 1,
     },
     {
@@ -88,8 +88,8 @@ export default [
         name: "burder",
         img: IMG9,
         oldP: 100,
-        newP: 89,
-        price: 10,
+        newP: 50,
+        price: 50,
         amount: 1,
     },
     {
@@ -97,8 +97,8 @@ export default [
         name: "burder",
         img: IMG10,
         oldP: 100,
-        newP: 89,
-        price: 10,
+        newP: 90,
+        price: 90,
         amount: 1,
     }
 ]
