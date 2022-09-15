@@ -29,6 +29,8 @@ const App = () => {
 const handleClick = (p) => {
   if (cart.indexOf(p) !== -1) return;
   setCart([...cart, p]);
+
+  alert("your order have successfully added to the basket")
   
 };
 /*
