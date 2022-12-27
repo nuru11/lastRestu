@@ -1,4 +1,4 @@
-.plate{
+/*.plate{
    border: 2px solid dimgray;
     background-color:dimgray;
 }
@@ -20,7 +20,7 @@
 .plate-item-parent{
     border: 1px solid yellow;
  /*background-color: gold;*/
-    width: 200px;
+   /* width: 200px;
     height: 250px;
     margin-left: 29%;
     display: flex;
@@ -61,3 +61,112 @@
 .buy-btn:hover{
     background-color: rgb(134, 130, 130);
 }
+*/
+
+/* =================== media ============================*/
+
+.plate{
+    border: 2px solid dimgray;
+     background-color:dimgray;
+    
+    
+ }
+ 
+ .plate-header{
+     color: white;
+     font-size: 40px;
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+     margin-bottom: 15px;
+    
+ }
+ 
+ .plate-parent{
+    display: grid;
+    grid-template-columns: 1fr;
+  
+ }
+ 
+ .plate-item-parent{
+     border: 1px solid yellow;
+  /*background-color: gold;*/
+     width: 200px;
+     height: 250px;
+     margin-left: 29%;
+     display: flex;
+     flex-direction: column;
+     border-radius: 5px;
+     margin-bottom: 5px;
+     margin-top: 10px;
+     cursor: pointer;
+     transition: all 400ms ease;
+     
+    
+ }
+ 
+ .plate-item-parent:hover{
+     background-color: rgb(134, 130, 130);
+    
+ }
+ .plate-img{
+     width: 90%;
+    margin: 5px 5%;
+     height: 50%;
+ }
+ 
+ .plate-name,.plate-price,.about-plate{
+     margin: 5px 5%;
+ }
+ 
+ .buy-btn{
+     background-color: yellow;
+     color: black;
+     border-radius: 5px;
+     border: 1px solid black;
+     width: 70px;
+     margin: 5px 5%;
+     cursor: pointer;
+     transition: all 400ms ease;
+ }
+ 
+ .buy-btn:hover{
+     background-color: rgb(134, 130, 130);
+ }
+ 
+
+/* mobile */
+
+@media (max-width: 767px){
+    .plate-item-parent{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .plate-parent{
+        width: fit-content;
+        height: fit-content;
+        margin-left: 50px;
+        
+    }
+}
+
+
+/* small screen */
+/*
+@media (min-width: 768px){
+    .plate-parent{
+        border: 1px solid rgb(162, 255, 0);
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       
+       
+       
+        
+     }
+     .plate-header{
+         width: fit-content;
+         margin-left: 15px;
+     }
+    
+}/**/

@@ -38,7 +38,7 @@
     background-color: yellow;
     border-radius: 100vw;
    
-}
+} 
 
 .menu-food-list::-webkit-scrollbar-thumb:hover{
     background-color: rgb(127, 127, 24);
@@ -95,7 +95,7 @@
 }
 
 .menu-juice-list li{
-    border: 1px solid black;
+   border: 1px solid black;
     display: flex;
     align-items: center;
 }
@@ -196,4 +196,150 @@ li div:first-child{
 
 .li1,.li2{
     position:absolute;
+}
+
+/* ================== media =================== */
+
+@media (max-width: 767px){
+    .menu-ul-parent{ 
+        flex-direction: column;
+    }
+    .ul-food{
+        width: 100%;
+    }
+    .menu-food-list{
+       border-color: yellow transparent;
+       border-radius: 10px;
+    }
+    .menu-name-text,.menu-price-text{
+        display: none
+    }
+    .li-item{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .menu-food-li{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       
+    }
+    .food-img2-parent{
+        border-radius: 50%;
+    }
+    .menu-img1{
+        border-radius: 50%;
+    }
+    .menu-btn{
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .menu-food-list li,.menu-juice-list li{
+        border-color: transparent;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    /* juice menu */
+
+    .ul-juice{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .menu-juice-list{
+        border-color: yellow transparent;
+        border-radius: 10px;
+     }
+     .menu-juice-li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+     }
+     .juice-img-parent{
+        border-radius: 50%;
+     }
+     .menu-img1{
+        border-radius: 50%;
+     }
+    .juice-title{
+        margin-bottom: 10px;
+    }
+
+    .menu-bascket{
+       margin-right: 50px;
+    }
+}
+
+/* small screen */
+
+
+@media (min-width: 768px) and (max-width: 992px){
+    .menu-ul-parent{ 
+        flex-direction: column;
+    }
+    .ul-food{
+        width: 100%;
+    }
+    .menu-food-list{
+       border-color: yellow transparent;
+       border-radius: 10px;
+    }
+    .menu-name-text,.menu-price-text{
+        display: none
+    }
+    .li-item{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .menu-food-li{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       
+    }
+    .food-img2-parent{
+        border-radius: 50%;
+    }
+    .menu-img1{
+        border-radius: 50%;
+    }
+    .menu-btn{
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    /* juice menu */
+
+    .ul-juice{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .menu-juice-list{
+        border-color: yellow transparent;
+        border-radius: 10px;
+     }
+     .menu-juice-li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+     }
+     .juice-img-parent{
+        border-radius: 50%;
+     }
+     .menu-img1{
+        border-radius: 50%;
+     }
+    .juice-title{
+        margin-bottom: 10px;
+    }
+
+    .menu-bascket{
+       margin-right: 50px;
+    }
 }

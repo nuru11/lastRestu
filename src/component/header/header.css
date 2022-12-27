@@ -1,4 +1,4 @@
-header{
+ header{
     background-color: dimgray !important;
     height: 80px;
     border: 2px solid dimgray !important;
@@ -13,6 +13,7 @@ header{
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
+    
    
 }
 
@@ -130,3 +131,48 @@ header{
     width: 100%;
     bottom: 0;
  }
+
+
+ /* ================ media =======================*/
+
+ @media (max-width: 767px){
+    .item-parent{
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+        
+        
+    }
+    header{
+        width: 100%;
+        height: fit-content;
+        position: static;
+    }
+    .welcome{
+        width: fit-content;
+        position: static;
+        margin-left: 5px;
+        margin-top: 1px;
+        font-weight: 900;
+        font-size: 90px;
+    }
+  
+ }
+
+
+ /* small screen */
+
+ @media (min-width: 768px) and (max-width: 992px){
+   
+    header{
+        width: 768px;
+        height: fit-content;
+       
+    }
+    .call-us{
+        display: none;
+    }
+  
+ }
+
+

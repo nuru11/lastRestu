@@ -4,7 +4,7 @@ import "./body.css"
 const Body = () => {
   return (
     <div className='body-parent'>
-      <h className="taste">taste the difference</h>
+      <div className="taste"><div>taste</div> <div>the</div><div>difference</div></div>
     </div>
   )
 }

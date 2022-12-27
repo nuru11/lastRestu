@@ -10,17 +10,17 @@ const Menu = ({changePage, handleClick}) => {
         <div className='menu-item'>
             <h className="menu-title">menu</h>
             <div className="menu-ul-parent">
-            <div className='ul-food'>
+            <div className='ul-food'> 
               <h className="food-title">food menu</h>
                 <ul className='menu-food-list'>
              {MenuData.map((item) => (
               <section key={item.id} >
           
-         <li><div className='food-img2-parent'>
+         <li className='menu-food-li'><div className='food-img2-parent'>
             <img className='menu-img1' src={item.img} alt="" />
-            </div><div className='li-item'><h className="menu-name">name:
+            </div><div className='li-item'><h className="menu-name"><span className="menu-name-text">name:</span>
             <span className='menu-name-span'>{item.name}</span></h>
-            <h className="menu-price">price: 
+            <h className="menu-price"><span className='menu-price-text'>price:</span>
             <span className='menu-price-span'>${item.newP}</span></h> 
             <button onClick={() => handleClick(item)} className='menu-btn'>order now</button></div></li>
                 
@@ -33,10 +33,10 @@ const Menu = ({changePage, handleClick}) => {
             <ul className='menu-juice-list'>
               {MenujuiceData.map((n) => 
             <section key={n.id}>
-            <li><div className='juice-img-parent'>
+            <li className='menu-juice-li'><div className='juice-img-parent'>
             <img className='menu-img1' src={n.img} alt="" /></div>
-            <div className='li-item'><h className="menu-name">name: 
-            <span className='menu-name-span'>burger</span></h><h className="menu-price">price: 
+            <div className='li-item'><h className="menu-name"><span className="menu-name-text">name:</span>
+            <span className='menu-name-span'>burger</span></h><h className="menu-price"><span className='menu-price-text'>price:</span>
             <span className='menu-price-span'>${n.price}</span></h> 
             <button onClick={() => handleClick(n)} className='menu-btn'>order now</button></div></li>
             </section>

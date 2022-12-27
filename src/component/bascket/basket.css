@@ -12,7 +12,7 @@
    width: 100%;
    background-color: rgba(134, 130, 130);
 }
-
+ 
 .basket-title{
     font-size: 60px;
     margin-left: 40%;
@@ -67,23 +67,23 @@
     
 }
 .basket-li-btn{
-    width: 20px;
+   
     border: 2px solid black;
     width: 80px;
-    height: 30px;
+    height: fit-content;
     border-radius: 5px;
     background-color: dimgray;
-    
+   
 }
 
 .basket-remove-btn{
     width: 20px;
     border: 2px solid black;
     width: 80px;
-    height: 30px;
+    height: fit-content;
     border-radius: 5px;
     background-color: red;
-   
+
 }
 
 .basket-li-btn:hover{
@@ -174,4 +174,42 @@
     font-size: xx-large;
     font-weight: bolder;
     margin-left: 30px;
+}
+
+/* ==================== media ================= */
+
+@media (max-width: 767px){
+    .basket{
+        border: 1px solid rgb(49, 31, 31);
+        height: fit-content;
+    }
+    .basket-ul{
+        flex-direction: column;
+        border-color:  yellow transparent;
+    }
+    .basket-home-btn{
+        margin-left: 20%;
+        margin-bottom: 30px;
+       
+    }
+    .basket-btn-li-parent{
+        flex-direction: row;
+    }
+    .basket-noProduct{
+        margin-left: 5px;
+    }
+    .basket-title{
+       
+        width: fit-content;
+        margin-left: 20px;
+    }
+}
+
+/* small screen */
+
+@media (min-width: 768px) and (max-width: 992px){
+    .basket-ul{
+        border: 1px solid blue;
+        width: 90%;
+    }
 }

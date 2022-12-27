@@ -13,6 +13,6 @@ const Cart = ({changePage, cart}) => {
     </div>
     </div>
   )
-}
+} 
 
 export default Cart

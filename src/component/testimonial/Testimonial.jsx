@@ -9,7 +9,7 @@ import { Pagination, Navigation } from 'swiper'
 
 import {Swiper, SwiperSlide} from "swiper/react"
 
-import 'swiper/css';
+import 'swiper/css'; 
 import 'swiper/css/pagination';
 
 const data = [
@@ -40,8 +40,8 @@ const data = [
 const testimonials = () => {
   return (
     <section id="testimonials" className='testimonials' >
-      <h5 className='testimonial-title'>review from client</h5>
-      <h2 className='testimonial-title2'>Testimonial</h2>
+      <h5 className='testimonial-title'>review from clients</h5>
+      <h2 className='testimonial-title2'>Testimonials</h2>
 <Swiper className="container testimonials__container"
 
 
@@ -69,7 +69,7 @@ modules={[Pagination, Navigation]}
       })
       }
 </Swiper>
-    </section>
+    </section> 
   )
 }
 

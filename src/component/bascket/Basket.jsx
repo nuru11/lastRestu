@@ -9,7 +9,7 @@ const Basket = ({changePage, cart,setCart, handleChange}) => {
 
   const [price, setPrice] = useState(0);
   
-  const handleRemove = (id) => {
+  const handleRemove = (id) => { 
     const arr = cart.filter((item) => item.id !== id);
     setCart(arr);
     handlePrice();
@@ -27,12 +27,12 @@ const Basket = ({changePage, cart,setCart, handleChange}) => {
   return (
     <div className='basket'>
       <Header changePage={changePage}/>
-      <h className="basket-title">Your Bascket</h>
+      <h className="basket-title">Your Basket</h>
     <div>
     {cart.map((p) => 
          <section key={p.id}>
     <ul className="basket-ul">
-  <li className="basket-li-img"><img src={p.img} /></li>
+  <li className="basket-li-img"><img src={p.img} alt={p.name}/></li>
   <li className='basket-li-name'><span className='basket-span-name'>name: </span>{p.name}</li>
   <li className='basket-li-newp'><span className="basket-span-newp">price: </span>${p.newP}</li>
   <li className="addMinus-li-btn">
@@ -41,7 +41,7 @@ const Basket = ({changePage, cart,setCart, handleChange}) => {
   <button onClick={() => handleChange(p, 1)} className="li-add-btn">+</button></li>
   <div className="basket-btn-li-parent"><li>
   <button onClick={() => handleRemove(p.id)} className="basket-remove-btn">remove</button></li>
-  <li><button className="basket-li-btn">order now</button></li></div>
+  <li><button className="basket-li-btn">payment method</button></li></div>
         </ul>
          </section>   
             )}

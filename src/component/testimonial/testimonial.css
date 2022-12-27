@@ -11,7 +11,7 @@
 }
 
 .testimonial-title2{
-    margin-left: 45%;
+    margin-left: 45%; 
     color: white;
     font-weight: bolder;
     font-size: x-large;
@@ -55,18 +55,29 @@
      }
     
     /* ==================== media qureis (media device) ==============*/
+    
     @media screen and (max-width: 1024px){
        .container.testimonials__container{
         width: 60%;
        }
      }
      
-     /* ================= media qureis (small device) ================*/
-     @media screen and (max-width: 600px){
+     /* ================= media ================*/
+     
+     @media (max-width: 767px){
         .container.testimonials__container{
-            width: var(--container-width-sm);
+          width: 80%;
+          margin: 0 16px ;
+        
         }
-        .client__review{
-            width: var(--container-width-sm);
+        .testimonial-title{
+           
+            margin-left: 0;
+            padding-left: 13%;
         }
-     }
+        .testimonial-title2{
+            margin-left: 0;
+            padding-left: 27%;
+
+        }
+    }

@@ -6,7 +6,7 @@
     background-size: cover;
    
     height: 100vh;
-  /*  border: 1px solid black;*/
+    border: 1px solid black;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,17 @@
 
 .taste{
    
-    color: white;
+    color: rgb(235, 235, 13);
     font-size: 100px;
-   
+  
+}
+
+/* =================== media ======================= */
+
+@media (max-width: 767px){
+  .taste{
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+  }
 }

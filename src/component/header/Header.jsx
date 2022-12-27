@@ -3,7 +3,7 @@ import "./header.css"
 
 import {MdFoodBank} from "react-icons/md"
 
-function Header({changePage, show}) {
+function Header({changePage, show}) { 
   return (
     <header id="header" className="header-parent">
      <div className='item-parent'> 
@@ -12,7 +12,7 @@ function Header({changePage, show}) {
     <a className='a-header-about' href="#about" ><div className='header-about'>about</div></a>
     <a className='a-header-contact' href='#contact'> <div className='header-contact'>contact</div></a>
      <a className='a-header-contact' href='#contact' ><div className='call-us'>call us: <span className='header-number'>093848392</span></div></a>
-     <button onClick={changePage} className="header-basket">{show ? "bascket" : "back home"}</button>
+     <button onClick={changePage} className="header-basket">{show ? "basket" : "back home"}</button>
      </div>
     </header>
   )

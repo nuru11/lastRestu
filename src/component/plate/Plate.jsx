@@ -3,10 +3,10 @@ import "./plate.css"
 
 
 
-import PlateData from '../../PlateData'
+//import PlateData from '../../PlateData'
 
 const Plate = ({p, handleClick}) => {
-  const {name, img, newP, oldP, discont} = p
+  const {name, img, newP, oldP, /*discont*/} = p
   return (
    
     <div className='plate-parent'>

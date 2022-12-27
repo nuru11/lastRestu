@@ -8,7 +8,7 @@
 .footer{
     background-color: dimgray;
 }
-
+ 
 .footer-parent{
    /* display:flex;
     flex-direction: row;
@@ -66,7 +66,18 @@
     background-color: rgb(134, 130, 130);
 }
 
-
+ 
 span{
     font-size: 15px;
+}
+
+/* =============== media =============== */
+
+@media (max-width: 767px){
+    .footer{
+       display: none;
+    }
+    .footer-parent{
+        grid-template-columns: 1fr;
+    }
 }
